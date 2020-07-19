@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ body{background-color: rgb(0, 0, 0); padding-top: 120px;}
+.rojo{background-color: rgb(151, 18, 11);}
+.rojo2{background-color: rgb(218, 55, 47);}
+.rojo3{background-color: rgb(185, 24, 16);}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* FILA-1_luces */
+#filaencendido{height: 71px; border-radius: 50px 20px 0px 15px}
+#visagra-top{ border-top: 10px solid black;  border-radius: 20px 50px 0px 0px}
+.dot1 {height: 50px; width: 50px; background-color: turquoise; border-radius: 50%; display: inline-block; border: 5px solid white;}
+.dot2 {height: 20px; width: 20px; background-color: red; border-radius: 50%; display: inline-block; border-color: darkgrey; border: 2px solid darkred;}
+.dot3 {height: 20px; width: 20px; background-color: yellow; border-radius: 50%; display: inline-block; border-color: darkgrey; border: 2px solid darkred;}
+.dot4 {height: 20px; width: 20px; background-color: lightgreen; border-radius: 50%; display: inline-block; border-color: darkgrey; border: 2px solid darkred;}
+.dot2off {height: 20px; width: 20px; background-color: rgb(199, 116, 116); border-radius: 50%; display: inline-block; border-color: darkgrey; border: 2px solid darkred;}
+.dot3off {height: 20px; width: 20px; background-color: rgb(216, 216, 139); border-radius: 50%; display: inline-block; border-color: darkgrey; border: 2px solid darkred;}
+.dot4off {height: 20px; width: 20px; background-color:rgb(84, 117, 84); border-radius: 50%; display: inline-block; border-color: darkgrey; border: 2px solid darkred;}
+
+
+/* FILA-2_pantalla_izquierda */
+#filapantalla{height: 300px; border-radius: 15px 0px 0px 0px}
+#screen{
+  height: 250px; width: 500px; padding: 20px; background-color: rgb(4, 8, 48);
+  border: 20px solid rgb(187, 184, 184); border-radius: 15px 50px 30px 5px;
+  overflow: auto;color: rgb(255, 254, 188);  font-size: 20px;align-items: center;}
+  #imagen{height: 150px; width: 150px}
+
+/* FILA-2_pantalla_derecha */
+#tapapantalla{border-radius: 5px 15px 0px 0px; display: flex; flex-direction: column; justify-content: space-between;}
+#tapascreen{
+  height:100px; width:auto; padding: 20px; background-color: rgb(4, 8, 48);
+  border-radius: 10px 10px 10px 10px;  
+  overflow: auto;color: rgb(255, 254, 188); font-size: 15px;}
+.botonescelestes{height: 60px;width: 60px;border:1px solid rgb(54, 6, 99);}
+#botonesblancosyamarillo{display: flex;  justify-content: space-between; margin-left: 40px;margin-right: 40px;}
+.botonesblancos{height: 30px;width: 60px;border:1px solid rgb(54, 6, 99);}
+.botonamarillo{height: 30px; width: 30px; border-radius: 50%; border-color: darkgrey; border: 1px solid darkslategray;}
+
+/* FILA-3_botones_izquierda */
+#filabotones{height: 90px; padding-top: 5px;}
+
+#botongrande{height: 40px;width: 40px; background-color: deepskyblue;}
+#botonchico1{width: 40px; height: 10px; background-color: green;}
+#botonchico2{width: 40px; height: 10px; background-color: orange;}
+#pantallaverde{width: 100px; height: 20px; background-color: yellowgreen; color: rgb(6, 53, 6);font-size: auto; padding-left: 10px;}
+
+#upbutton{height:25px;padding:0px;margin:0px}
+#downbutton{height:25px;padding:0px;margin:0px}
+#rightbutton{height:25px;padding:0px;margin:0px}
+#leftbutton{height:25px;padding:0px;margin:0px}
+
+/* FILA-3_botones_derecha */
+.pardebotonesnegros{height: 40px; width: 150px;}
+
+/* FILA-4 */
+#filabaja{border-radius: 5px 0px 20px 50px}
+#visagra-buttom{ border-bottom: 10px solid black; height: 20px;border-radius: 0px 0px 50px 20px }
+
+
+
+
+.itemspantalla{color: chartreuse; font-size:30px;}
